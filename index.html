@@ -1,23 +1,36 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Merengue</title>
+</head>
 
-<div class="home">
+  <header>
+    <center>
+    <img src="tambora.jpg" alt="tambora" width="99%">
+  </center>
+  </header>
+<body>
+  <center>
+<h1>MERENGUE</h1>
+  </center>
 
-  <h1 class="page-heading">Posts</h1>
+  <p>
+    Merengue is a type of music and dance originating in the Dominican Republic
+    which has become a very popular genre throughout Latin America, and also in
+    several major cities in the United States which have Hispanic communities.
+  </p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <p>
+  In more urban settings, merengue is played with all manner of instrumentation,
+  but the tambora and the güira are signatures. Today, merengue de orquesta is
+  most popular. It uses a large horn section with paired saxophones, piano,
+  timbales, hi-hat, backup singers, and conga, in addition to tambora, güira,
+  and bass. In modern merengue típico a saxophone is an addition to the accordion,
+  along with electric bass guitar. A proof of the great adaptability of the music
+  can be found in the Dominican National Symphony's presentation in 2003 of a
+  concert series entitled "Symphonic Merengue", in which the Symphonic Orchestra
+  consisting of woodwinds, brass, strings, and the like played popular tunes.
+  </p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</body>
+</html>
